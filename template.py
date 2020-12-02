@@ -27,10 +27,11 @@ def solve2(inputs):
     return answer
 
 def main():
+    #data = get_test_inputs()
     data = get_inputs(DAY)
+
     print(solve1(data))
     print(solve2(data))
-    #data = get_test_inputs()
 
 if __name__ == "__main__":
     sys.exit(main())
